@@ -2,7 +2,11 @@
 //https://netflix-clone-3efda.web.app/
 
 function App() {
-  return <div></div>
+  return (
+    <div>
+      <h1>Hello THis is zubaer</h1>
+    </div>
+  )
 }
 
 export default App
