@@ -5,6 +5,7 @@ import './Row.css'
 const base_url = 'https://image.tmdb.org/t/p/original/'
 function Row({ title, fetchUrl, isLargeRow }) {
   const [movies, setMovies] = useState([])
+
   // A snippet of code which runs based on a specific conditions
   useEffect(() => {
     // if [], run once when the row loads, and don't run again
@@ -20,8 +21,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
     <div className="row">
       <h2>{title}</h2>
       <div className="row__posters">
-        {/*several row__poster(s)*/}
-
         {movies.map((movie) => (
           <img
             key={movie.id}

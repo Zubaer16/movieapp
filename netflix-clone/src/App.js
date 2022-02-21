@@ -3,6 +3,7 @@ import './App.css'
 import Row from './Row'
 import requests from './requests'
 import Banner from './Banner'
+import Nav from './Nav'
 
 // cfe6e49760b8f02085257553baa8237a
 //https://netflix-clone-3efda.web.app/
@@ -10,7 +11,7 @@ import Banner from './Banner'
 function App() {
   return (
     <div className="app">
-      {/* Nav */}
+      <Nav />
       <Banner />
 
       <Row
